@@ -6,11 +6,20 @@
   <version>1.1-SNAPSHOT</version>
   <name>junkola</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
   <scm>
-    <developerConnection>
-      scm:git:git@github.com:bdupras/junkola.git
-    </developerConnection>
-    <tag>HEAD</tag>
+    <connection>scm:git:git@github.com:bdupras/junkola.git</connection>
+    <developerConnection>scm:git:git@github.com:bdupras/junkola.git</developerConnection>
+    <url>git:git@github.com:bdupras/junkola.git</url>
   </scm>
   <dependencies>
     <dependency>
