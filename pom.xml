@@ -3,7 +3,7 @@
   <groupId>com.duprasville.junkola</groupId>
   <artifactId>junkola</artifactId>
   <packaging>jar</packaging>
-  <version>1.4.2-SNAPSHOT</version>
+  <version>1.4.2</version>
   <name>junkola</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
@@ -20,7 +20,7 @@
     <connection>scm:git:git@github.com:bdupras/junkola.git</connection>
     <developerConnection>scm:git:git@github.com:bdupras/junkola.git</developerConnection>
     <url>git:git@github.com:bdupras/junkola.git</url>
-    <tag>HEAD</tag>
+    <tag>junkola-1.4.2</tag>
   </scm>
   <dependencies>
     <dependency>
